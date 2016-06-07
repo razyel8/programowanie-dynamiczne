@@ -1,0 +1,69 @@
+<!--<p>Produkty: {{products}}</p>-->
+<h3>Panel rozwiązania</h3>
+<button class="btn bg-primary" ng-click="loadTruck(); loadGreedy();">Załaduj ciężarówkę</button>
+<div class="row">
+    <!--<p>Pojemność: {{truckCapacity}}</p>-->
+
+    <!--<p>Produkty załadowane: {{loadedProducts}}</p>-->
+
+    <div ng-show="truckLoaded" class="col-md-6">
+        <h3>Produkty wybrane do ciężarówki</h3>
+        <h6>Czas działania: {{dynamicTime}}</h6>
+        <h6>Suma benefit: {{dynamicSum}}</h6>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nazwa</th>
+                <th>Cena</th>
+                <th>Objętość</th>
+                <th>Data ważności</th>
+                <th>Benefit</th>
+                <!--<th>Take</th>-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="product in loadedProducts track by $index" ng-show="product.take">
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.size}}</td>
+                <td>{{product.expirationDate | date:'MM/dd/yyyy'}}</td>
+                <td>{{product.benefit | number:3}}</td>
+                <!--<td>{{product.take}}</td>-->
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div ng-show="truckLoaded" class="col-md-6">
+        <h3>Produkty wybrane do ciężarówki (algorytm zachłanny)</h3>
+        <h6>Czas działania: {{greedyTime}}</h6>
+        <h6>Suma benefit: {{greedySum}}</h6>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nazwa</th>
+                <th>Cena</th>
+                <th>Objętość</th>
+                <th>Data ważności</th>
+                <th>Benefit</th>
+                <!--<th>Take</th>-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="product in loadedGreedy track by $index">
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.size}}</td>
+                <td>{{product.expirationDate | date:'MM/dd/yyyy'}}</td>
+                <td>{{product.benefit | number:3}}</td>
+                <!--<td>{{product.take}}</td>-->
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

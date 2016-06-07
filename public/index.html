@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem magazyniera</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/css/bootstrap.css"/>
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endinject -->
+    <style>
+        body{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body ng-app="pd">
+<!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+        <!--<pd-product-set></pd-product-set>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="row">
+    <div class="col-md-2">
+        <pd-product-set></pd-product-set>
+        <pd-truck-config></pd-truck-config>
+    </div>
+    <div class="col-md-10">
+        <pd-solution-panel></pd-solution-panel>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <pd-products-list></pd-products-list>
+    </div>
+    <div class="col-md-6">
+        <pd-product-form></pd-product-form>
+    </div>
+</div>
+
+<!-- bower:js -->
+<script src="lib/js/angular.js"></script>
+<script src="lib/js/jquery.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<!-- endbower -->
+
+<script src="app.js"></script>
+
+<!-- inject:js -->
+<script src="components/products-data.service.js"></script>
+<script src="components/truck-data.service.js"></script>
+<script src="components/product-form/product-form.controller.js"></script>
+<script src="components/product-form/product-form.directive.js"></script>
+<script src="components/product-list/product-list.controller.js"></script>
+<script src="components/product-list/product-list.directive.js"></script>
+<script src="components/product-set/product-set.controller.js"></script>
+<script src="components/product-set/product-set.directive.js"></script>
+<script src="components/solution-panel/solution-panel.controller.js"></script>
+<script src="components/solution-panel/solution-panel.directive.js"></script>
+<script src="components/truck-config/truck-config.controller.js"></script>
+<script src="components/truck-config/truck-config.directive.js"></script>
+<!-- endinject -->
+</body>
+</html>

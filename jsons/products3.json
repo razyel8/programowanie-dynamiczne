@@ -1,0 +1,101 @@
+[
+  {
+    "id": 0,
+    "name": "Chleb",
+    "size": 1,
+    "expirationDate": "2016-05-21T22:00:00.000Z",
+    "price": 2,
+    "benefit": 0.3333333333333333,
+    "take": false
+  },
+  {
+    "id": 1,
+    "name": "Mleko",
+    "size": 2,
+    "expirationDate": "2016-05-25T22:00:00.000Z",
+    "price": 3,
+    "benefit": 0.14285714285714285,
+    "take": false
+  },
+  {
+    "id": 2,
+    "name": "Makaron",
+    "size": 3,
+    "expirationDate": "2016-06-29T22:00:00.000Z",
+    "price": 5,
+    "benefit": 0.023809523809523808,
+    "take": false
+  },
+  {
+    "id": 3,
+    "name": "Pierś z kurczaka",
+    "size": 5,
+    "expirationDate": "2016-05-20T22:00:00.000Z",
+    "price": 8,
+    "benefit": 0.5,
+    "take": false
+  },
+  {
+    "id": 4,
+    "name": "Masło",
+    "size": 1,
+    "expirationDate": "2016-06-30T22:00:00.000Z",
+    "price": 3,
+    "benefit": 0.023255813953488372,
+    "take": false
+  },
+  {
+    "id": 5,
+    "name": "Marchew",
+    "size": 4,
+    "expirationDate": "2016-05-26T22:00:00.000Z",
+    "price": 4,
+    "benefit": 0.125,
+    "take": false
+  },
+  {
+    "id": 6,
+    "name": "Jajka",
+    "size": 5,
+    "expirationDate": "2016-06-15T22:00:00.000Z",
+    "price": 4,
+    "benefit": 0.03571428571428571,
+    "take": false
+  },
+  {
+    "id": 7,
+    "name": "Jogurt",
+    "size": 3,
+    "expirationDate": "2016-07-27T22:00:00.000Z",
+    "price": 3,
+    "benefit": 0.014285714285714285,
+    "take": false
+  },
+  {
+    "id": 8,
+    "name": "Ryż",
+    "size": 2,
+    "expirationDate": "2016-11-23T23:00:00.000Z",
+    "price": 3,
+    "benefit": 0.005291005291005291,
+    "take": false
+  },
+  {
+    "id": 9,
+    "name": "Sok pomarańczowy",
+    "size": 2,
+    "expirationDate": "2016-08-31T22:00:00.000Z",
+    "price": 4,
+    "benefit": 0.009523809523809525,
+    "take": false
+  },
+  {
+    "id": 10,
+    "name": "Czekolada",
+    "size": 1,
+    "expirationDate": "2017-06-28T22:00:00.000Z",
+    "price": 3,
+    "benefit": 0.0024630541871921183,
+    "take": false
+  }
+]

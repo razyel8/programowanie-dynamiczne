@@ -1,0 +1,29 @@
+<div>
+    <h3>Tabela produktów w magazynie</h3>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nazwa</th>
+            <th>Cena</th>
+            <th>Objętość</th>
+            <th>Data ważności</th>
+            <th>Benefit</th>
+            <!--&lt;!&ndash;<th>Zaznacz wszystko/usuń/usuń wszystko <input type="checkbox" name="vehicle" value="Bike"></th>&ndash;&gt;-->
+            <!--<th>Take</th>-->
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="product in products track by $index">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.size}}</td>
+            <td>{{formatDate(product.expirationDate)}}</td>
+            <td>{{product.benefit | number:3}}</td>
+            <!--&lt;!&ndash;<td><input type="checkbox" name="vehicle" value="Bike"></td>&ndash;&gt;-->
+            <!--<td>{{product.take}}</td>-->
+        </tr>
+        </tbody>
+    </table>
+</div>

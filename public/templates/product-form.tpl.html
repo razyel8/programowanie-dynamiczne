@@ -1,0 +1,14 @@
+<h3>Nowy produkt</h3>
+<form name="productForm" class="form-horizontal">
+    <label>Nazwa</label>
+    <input class="form-control" type="text" data-ng-model="product.name">
+    <label>Wartość</label>
+    <input class="form-control" type="number" data-ng-model="product.price">
+    <label>Objętość</label>
+    <input class="form-control" type="number" data-ng-model="product.size">
+    <label>Data upływu ważności</label>
+    <input class="form-control" type="date" ng-change="setBenefit()" data-ng-model="product.expirationDate">
+    <input type="hidden" data-ng-model="product.take" value="false">
+    <p>{{product.benefit}}</p>
+    <button class="btn btn-success" ng-click="submitProduct()">Dodaj</button>
+</form>

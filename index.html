@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem magazyniera</title>
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <style>
+        body{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body ng-app="pd">
+<!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+        <!--<pd-product-set></pd-product-set>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="row">
+    <div class="col-md-2">
+        <pd-product-set></pd-product-set>
+        <pd-truck-config></pd-truck-config>
+    </div>
+    <div class="col-md-10">
+        <pd-solution-panel></pd-solution-panel>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <pd-products-list></pd-products-list>
+    </div>
+    <div class="col-md-6">
+        <pd-product-form></pd-product-form>
+    </div>
+</div>
+
+<!-- bower:js -->
+<!-- endbower -->
+
+<script src="app.js"></script>
+
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>

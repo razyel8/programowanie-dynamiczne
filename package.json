@@ -1,0 +1,21 @@
+{
+  "name": "progdyna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-include-source": "0.0.5",
+    "gulp-inject": "^4.0.0",
+    "gulp-watch": "^4.3.5"
+  },
+  "dependencies": {
+    "wiredep": "^4.0.0"
+  }
+}

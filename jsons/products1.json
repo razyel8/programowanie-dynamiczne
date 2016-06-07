@@ -1,0 +1,201 @@
+[
+  {
+    "id": 0,
+    "name": "woda mineralna",
+    "size": 2,
+    "expirationDate": "2017-07-06T22:00:00.000Z",
+    "price": 2,
+    "benefit": 0.0025,
+    "take": false
+  },
+  {
+    "id": 1,
+    "name": "chleb żytni",
+    "size": 1,
+    "expirationDate": "2016-06-05T22:00:00.000Z",
+    "price": 3,
+    "benefit": 0.25,
+    "take": false
+  },
+  {
+    "id": 2,
+    "name": "jogurt truskawkowy",
+    "size": 1,
+    "expirationDate": "2016-06-18T22:00:00.000Z",
+    "price": 2,
+    "benefit": 0.058823529411764705,
+    "take": false
+  },
+  {
+    "id": 3,
+    "name": "bułka drożdżowa",
+    "size": 1,
+    "expirationDate": "2016-10-06T22:00:00.000Z",
+    "price": 2,
+    "benefit": 0.007874015748031496,
+    "take": false
+  },
+  {
+    "id": 4,
+    "name": "wafle ryżowe",
+    "size": 2,
+    "expirationDate": "2016-12-31T23:00:00.000Z",
+    "price": 4,
+    "benefit": 0.004694835680751174,
+    "take": false
+  },
+  {
+    "id": 5,
+    "name": "masło orzechowe",
+    "size": 3,
+    "expirationDate": "2018-05-04T22:00:00.000Z",
+    "price": 6,
+    "benefit": 0.0014245014245014246,
+    "take": false
+  },
+  {
+    "id": 6,
+    "name": "baton białkowy",
+    "size": 1,
+    "expirationDate": "2020-06-05T22:00:00.000Z",
+    "price": 10,
+    "benefit": 0.0006825938566552901,
+    "take": false
+  },
+  {
+    "id": 7,
+    "name": "zupa błyskawiczna",
+    "size": 1,
+    "expirationDate": "2019-02-01T23:00:00.000Z",
+    "price": 1,
+    "benefit": 0.0010256410256410256,
+    "take": false
+  },
+  {
+    "id": 8,
+    "name": "rumsztyk",
+    "size": 5,
+    "expirationDate": "2016-10-05T22:00:00.000Z",
+    "price": 10,
+    "benefit": 0.007936507936507936,
+    "take": false
+  },
+  {
+    "id": 9,
+    "name": "makaron",
+    "size": 3,
+    "expirationDate": "2017-03-11T23:00:00.000Z",
+    "price": 3,
+    "benefit": 0.0035335689045936395,
+    "take": false
+  },
+  {
+    "id": 10,
+    "name": "fasola w puszce",
+    "size": 10,
+    "expirationDate": "2019-04-10T22:00:00.000Z",
+    "price": 12,
+    "benefit": 0.0009587727708533077,
+    "take": false
+  },
+  {
+    "id": 11,
+    "name": "patisony",
+    "size": 1,
+    "expirationDate": "2016-07-06T22:00:00.000Z",
+    "price": 5,
+    "benefit": 0.02857142857142857,
+    "take": false
+  },
+  {
+    "id": 12,
+    "name": "kasza manna",
+    "size": 8,
+    "expirationDate": "2017-09-08T22:00:00.000Z",
+    "price": 12,
+    "benefit": 0.0021551724137931034,
+    "take": false
+  },
+  {
+    "id": 13,
+    "name": "ryż",
+    "size": 7,
+    "expirationDate": "2018-08-07T22:00:00.000Z",
+    "price": 1,
+    "benefit": 0.0012547051442910915,
+    "take": false
+  },
+  {
+    "id": 14,
+    "name": "rogalik",
+    "size": 1,
+    "expirationDate": "2016-08-31T22:00:00.000Z",
+    "price": 6,
+    "benefit": 0.01098901098901099,
+    "take": false
+  },
+  {
+    "id": 15,
+    "name": "sok jabłkowy",
+    "size": 10,
+    "expirationDate": "2016-12-31T23:00:00.000Z",
+    "price": 30,
+    "benefit": 0.004694835680751174,
+    "take": false
+  },
+  {
+    "id": 16,
+    "name": "pepśi",
+    "size": 1,
+    "expirationDate": "2050-02-28T23:00:00.000Z",
+    "price": 2,
+    "benefit": 0.00008113590263691683,
+    "take": false
+  },
+  {
+    "id": 17,
+    "name": "szprajt",
+    "size": 1,
+    "expirationDate": "2017-03-11T23:00:00.000Z",
+    "price": 1,
+    "benefit": 0.0035335689045936395,
+    "take": false
+  },
+  {
+    "id": 18,
+    "name": "sos boloński",
+    "size": 5,
+    "expirationDate": "2019-06-08T22:00:00.000Z",
+    "price": 1,
+    "benefit": 0.0009074410163339383,
+    "take": false
+  },
+  {
+    "id": 19,
+    "name": "tofu",
+    "size": 8,
+    "expirationDate": "2016-11-10T23:00:00.000Z",
+    "price": 1,
+    "benefit": 0.006172839506172839,
+    "take": false
+  },
+  {
+    "id": 20,
+    "name": "puszka w śledziu",
+    "size": 3,
+    "expirationDate": "2018-01-01T23:00:00.000Z",
+    "price": 3,
+    "benefit": 0.0017271157167530224,
+    "take": false
+  },
+  {
+    "id": 21,
+    "name": "masło",
+    "size": 1,
+    "expirationDate": "2016-07-07T22:00:00.000Z",
+    "price": 3,
+    "benefit": 0.027777777777777776,
+    "take": false
+  }
+]
+

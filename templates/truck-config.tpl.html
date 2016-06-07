@@ -1,0 +1,15 @@
+<h3>Konfiguracja ciężarówki</h3>
+
+<form name="productForm" class="form-horizontal">
+    <label>Aktualna pojemność</label>
+    <!--<input class="form-control" type="number" ng-change="truckData.setCapacity(truck.capacity)" min="0" max="100" data-ng-model="truck.capacity">-->
+    <input type="range" name="capacitySlider" ng-change="truckData.setCapacity(truck.capacity)" data-ng-model="truck.capacity" min="0" max="100">
+    <div>
+        <p><b>Aktualna pojemność ciężarówki: {{truck.capacity}}</b></p>
+    </div>
+    <span>
+        <img src="img/truck.png" alt="Truck" height="150">
+    </span>
+</form>
+
+
